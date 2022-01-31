@@ -305,7 +305,7 @@ def comandos(update, context):
 /comandos""")
 
 
-updater = Updater("5208301944:AAHEd6bW_MNDsBFRc9TJLEkm21uLW6oQnb4")
+updater = Updater("TOKEN")
 dp = updater.dispatcher
 dp.add_handler(CommandHandler("start", start))
 dp.add_handler(MessageHandler(
